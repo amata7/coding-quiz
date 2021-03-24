@@ -9,14 +9,67 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <section>
-        <h1></h1>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <h2></h2>
+    <section class ='startBtn'>
+        <button>Start Quiz</button>
+    </section>
+
+    <!-- Information about the quiz -->
+    <section class='infoBox'>
+        <h1 class ='infoTitle'>
+            <span>Quiz Rules</span>
+        </h1>
+        <h2 class='infoList'>
+            <h3 class='info'>1. You will have 20 seconds to finish the quiz</h3>
+            <h3 class='info'>2. Wrong answers will take some of your remaining time away</h3>
+            <h3 class='info'>3. When the timer reaches 0 or you answer all questions, then the quiz is over</h3>
+            <h3 class='info'>4. Timer will start when you begin the quiz</h3>
+            <h3 class='info'>5. Click "Continue" to begin</h3>
+        </h2>
+        <section class='buttons'>
+            <button class='exitBtn'>Exit Quiz</button>
+            <button class='continueBtn'>Continue</button>
+        </section>
     </section>
     
+    <!-- Quiz Contents -->
+    <section class='quizBox'>
+        <header>
+            <h1 class='title'>Quiz Application</h1>
+            <h1 class='timer'>
+                <h2 class='timerText'> Time Left</h2>
+                <h2 class='remainingTime'></h2>
+            </h1>
+        </header>
+        <section>
+            <p class='queText'></p>
+            <ul class='optionList'>
+                <li class='option1'></li>
+                <li class='option2'></li>
+                <li class='option3'></li>
+                <li class='option4'></li>
+                <!-- <div class='option'><span></span></div>
+                <div class='option'><span></span></div>
+                <div class='option'><span></span></div> -->
+            </ul>
+            <footer>
+            <button class='nextBtn'>Next</button>
+            </footer>
+        </section>
+    </section>
+
+    <!-- Results Contents -->
+    <section class='resultBox'>
+        <p class='timeLeft'>You finished in ____ seconds</p>
+        <section class='buttons'>
+            <button class='restartBtn'>Restart Quiz</button>
+        </section>
+        
+    </section>
+
+
+
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/javascript.js"></script>
 </body>
 </html>
