@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/amata7/coding-quiz/issues"
   },
-  "homepage": "https://github.com/amata7/coding-quiz#readme"
+  "homepage": "https://github.com/amata7/coding-quiz#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.4"
+  }
 }
