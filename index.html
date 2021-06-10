@@ -10,20 +10,20 @@
     <!-- <link rel="stylesheet" href="./main/assets/css/style.css" /> -->
 </head>
 <body class="bg-yellow-100">
-<main>
-    <section class="grid grid-cols-3">
-        <div class="col-start-2 bg-white p-3 rounded-lg border border-black">
-            <p class="text-3xl">Quiz Rules</p>
-            <p>1. You will have 20 seconds to finish the quiz</p>
-            <p>2. Wrong answers will take some of your remaining time away</p>
-            <p>3. When the timer reaches 0 or you answer all questions, then the quiz is over</p>
-            <p>4. Timer will start when you begin the quiz</p>
-            <p>5. Click "Continue" to begin</p>
+<main class="grid grid-cols-5 grid-rows-3 justify-items-center">
+    <section class="col-start-2 row-start-2 col-span-3">
+        <div class="bg-white p-3 rounded-lg border border-black mb-4">
+            <p class="text-3xl mb-2">Quiz Rules</p>
+            <p class="text-lg">1. You will have 20 seconds to finish the quiz</p>
+            <p class="text-lg">2. Wrong answers will take some of your remaining time away</p>
+            <p class="text-lg">3. When the timer reaches 0 or you answer all questions, then the quiz is over</p>
+            <p class="text-lg">4. Timer will start when you begin the quiz</p>
+            <p class="text-lg">5. Click "Continue" to begin</p>
         </div>
-    </section>
-    <section class="grid grid-cols-3">
-         <button class="text-6xl border-4 bg-green-600 text-white border-green-900 rounded-full py-3 px-6 col-start-2">Start Quiz</button>
-     </section>
+        </section>
+        <section class="col-start-2 row-start-3 col-span-3">
+            <button class="text-6xl border-4 bg-green-600 text-white border-green-900 rounded-full py-3 px-6">Start Quiz</button>
+        </section>
 
 </main>
     <script src="./main/assets/js/questions.js"></script>
