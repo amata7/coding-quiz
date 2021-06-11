@@ -10,6 +10,7 @@
 </head>
 <body class="bg-yellow-100">
 <main>
+    <!-- Quiz Details -->
     <section id="infoBox" class="grid grid-cols-5 grid-rows-3 justify-items-center">
         <div  class="bg-white p-3 rounded-lg border border-black mt-8 col-start-2 col-span-3 relative">
             <div id="rules">
@@ -24,6 +25,7 @@
         </div>
     </section>
 
+<!-- Questions -->
     <section id="question1" class="grid grid-cols-3 grid-rows-3 justify-items-center mt-8 hidden">
         <div class="bg-white col-start-2 row-start-2 row-span-2 rounded-lg border border-black w-full relative">
                 <p class="text-3xl m-2">What does HTML stand for?</p>
@@ -36,7 +38,6 @@
             <button id="submit1" class="bg-blue-500 text-white border border-black absolute bottom-0 right-0 px-1 rounded-md mr-2 mb-2">Submit</button>
         </div>
     </section>
-
     <section id="question2" class="grid grid-cols-3 grid-rows-3 justify-items-center mt-8 hidden">
         <div class="bg-white col-start-2 row-start-2 row-span-2 rounded-lg border border-black w-full relative">
                 <p class="text-3xl m-2">What does CSS stand for?</p>
@@ -49,7 +50,6 @@
             <button id="submit2" class="bg-blue-500 text-white border border-black absolute bottom-0 right-0 px-1 rounded-md mr-2 mb-2">Submit</button>
         </div>
     </section>
-
     <section id="question3" class="grid grid-cols-3 grid-rows-3 justify-items-center mt-8 hidden">
         <div class="bg-white col-start-2 row-start-2 row-span-2 rounded-lg border border-black w-full relative">
                 <p class="text-3xl m-2">What does JS stand for?</p>
@@ -60,6 +60,15 @@
                     <p class="ml-2 mb-1">D:  <span class="hover:bg-gray-200">Java Styles</span></p>
                 </div>
             <button id="submit3" class="bg-blue-500 text-white border border-black absolute bottom-0 right-0 px-1 rounded-md mr-2 mb-2">Submit</button>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="grid grid-cols-3 grid-rows-3 justify-items-center mt-8 hidden">
+        <div class="bg-white col-start-2 row-start-2 row-span-2 rounded-lg border border-black w-full relative">
+                <h1 class="text-3xl m-2">Quiz Results</h1>
+                <p class="mb-8 ml-2">Your score is ---number goes here--- points for finishing this quiz. You can click the return button to try this quiz again to get a better score!</p>
+            <button id="returnBtn" class="bg-blue-500 text-white border border-black absolute bottom-0 right-0 px-1 rounded-md mr-2 mb-2">Return</button>
         </div>
     </section>
 </main>
