@@ -81,7 +81,8 @@ function showResults() {
   });
 
   // show number of correct answers out of total
-  resultsContainer.innerHTML = `${numIncorrect} incorrect out of ${questions.length}`;
+  resultsContainer.innerHTML = `<p>Based on your time and correct answers, your score is : --score--</p><br>
+  <div>${numIncorrect} incorrect out of ${questions.length}</div>`;
   console.log(numIncorrect);
 }
 
