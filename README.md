@@ -1,11 +1,9 @@
 --to do--
 
-make each question option selectable to be submitted
-on submit, a function will determine whether the answer is correct or incorrect
-
 have timer begin when the start button is clicked
-if incorrect, some time will be taken off
+on submit, the amount of incorrect answers will take off a certain amount of time which is used for score
 
-the results page has their number of correct answers
-a score is given based on their time
+results page
+a score is given based on their time and answers
 they can save a high score and enter in a name
+cached information of recent high scores
