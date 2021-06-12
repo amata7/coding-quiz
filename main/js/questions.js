@@ -1,32 +1,32 @@
 var questions = [
   {
     question: "What does HTML stand for?",
-    correctAnswer: "A",
+    correctAnswer: "a",
     answers: {
-      A: "Hyper Text Markup Language",
-      B: "Hyper Tool Meta Language",
-      C: "How The Main Looks",
-      D: "Hyper Text Main Language",
+      a: "Hyper Text Markup Language",
+      b: "Hyper Tool Meta Language",
+      c: "How The Main Looks",
+      d: "Hyper Text Main Language",
     },
   },
   {
     question: "What does CSS stand for?",
-    correctAnswer: "D",
+    correctAnswer: "d",
     answers: {
-      A: "Colorful Computer Styles",
-      B: "Creative Style Sheets",
-      C: "Colorful Computer Sheets",
-      D: "Cascading Style Sheets",
+      a: "Colorful Computer Styles",
+      b: "Creative Style Sheets",
+      c: "Colorful Computer Sheets",
+      d: "Cascading Style Sheets",
     },
   },
   {
     question: "What does JS stand for?",
-    correctAnswer: "B",
+    correctAnswer: "b",
     answers: {
-      A: "Just Saying",
-      B: "Java Script",
-      C: "Journal Scripts",
-      D: "Java Styles",
+      a: "Just Saying",
+      b: "Java Script",
+      c: "Journal Scripts",
+      d: "Java Styles",
     },
   },
 ];
