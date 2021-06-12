@@ -1,8 +1,8 @@
 const startBtn = document.getElementById("startBtn");
 const infoBox = document.getElementById("infoBox");
-const resultsContainer = document.getElementById("results");
 const quizContainer = document.getElementById("quiz");
 const submitButton = document.getElementById("submit");
+const resultsContainer = document.getElementById("results");
 
 startBtn.onclick = () => {
   infoBox.classList.add("hidden");
@@ -46,6 +46,8 @@ function buildQuiz() {
 }
 
 function showResults() {
+  submitButton.classList.add("hidden");
+  resultsContainer.classList.remove("hidden");
   // gather answer containers from our quiz
   const answerContainers = quizContainer.querySelectorAll(".answers");
 
