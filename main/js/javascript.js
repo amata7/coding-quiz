@@ -6,6 +6,8 @@ const submitButton = document.getElementById("submit");
 
 startBtn.onclick = () => {
   infoBox.classList.add("hidden");
+  quizContainer.classList.remove("hidden");
+  submitButton.classList.remove("hidden");
   buildQuiz();
 };
 
