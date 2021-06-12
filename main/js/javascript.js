@@ -14,6 +14,7 @@ startBtn.onclick = () => {
 function buildQuiz() {
   // variable to store the HTML output
   const output = [];
+  output.push(`<p class="text-3xl mb-2 underline">Coding Quiz</p>`);
 
   // for each question...
   questions.forEach((currentQuestion, questionNumber) => {
@@ -40,7 +41,6 @@ function buildQuiz() {
         <div class="answers p-1"> ${answers.join("")} </div>`
     );
   });
-
   // finally combine our output list into one string of HTML and put it on the page
   quizContainer.innerHTML = output.join("");
 }
