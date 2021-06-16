@@ -19,9 +19,8 @@ $("#startBtn").click(function () {
   quizTime = setInterval(function () {
     document.getElementById("count").innerHTML = count;
     count--;
-    if (count === -2) {
+    if (count < 0) {
       clearInterval(quizTime);
-      document.getElementById("count").innerHTML = "Out of time!";
       showResults();
     }
   }, 2000);
@@ -35,7 +34,7 @@ function buildQuiz() {
   // variable to store the HTML output
   const output = [];
   output.push(`<p class="text-3xl mb-2 underline">Coding Quiz</p>
-  <div class="mt-4 mb-2 font-medium text-lg">Time Remaining: <span id="count">30</span></div>`);
+  <div class="mt-4 mb-2 font-medium text-lg">Time Remaining: <span id="count"></span></div>`);
 
   // for each question...
   questions.forEach((currentQuestion, questionNumber) => {
@@ -103,7 +102,7 @@ function showResults() {
 
   // show number of correct answers out of total
   resultsContainer.innerHTML = `<p>It took you ${
-    count.innerHTML
+    30 - count.innerHTML
   } seconds to finish this quiz.</p>
   <p>Based on your answer choices, your score is </p>
   <div>${numIncorrect - questions.length} correct out of ${
