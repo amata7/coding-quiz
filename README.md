@@ -1,9 +1,13 @@
---to do--
+# Coding Quiz
 
-have timer begin when the start button is clicked
-on submit, the amount of incorrect answers will take off a certain amount of time which is used for score
+## Description
 
-results page
-a score is given based on their time and answers
-they can save a high score and enter in a name
-cached information of recent high scores
+A coding quiz that times how long it takes you to finish. After clicking the submit button, your answers will be color coded red if they are wrong and green if they are correct.
+
+This project uses Tailwind framework for CSS. Other resources used include setInterval and jQuery.
+
+![example of finished quiz](/main/img/coding-quiz.png)
+
+## Other Information
+
+The Github profile of the person who created this project is : https://github.com/amata7
