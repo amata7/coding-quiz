@@ -59,4 +59,20 @@ var questions = [
       d: "a box that wraps around a CSS element that consists of margins, borders, and padding",
     },
   },
+  {
+    question: "A CSS class selector (.class) applies to only a single element",
+    correctAnswer: "b",
+    answers: {
+      a: "True",
+      b: "False",
+    },
+  },
+  {
+    question: "A CSS id selector (#id) applies to only a single element",
+    correctAnswer: "a",
+    answers: {
+      a: "True",
+      b: "False",
+    },
+  },
 ];

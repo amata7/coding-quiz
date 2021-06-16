@@ -97,8 +97,10 @@ function showResults() {
   });
 
   // show number of correct answers out of total
-  resultsContainer.innerHTML = `<p>Based on your time and correct answers, your score is : --score--</p><br>
-  <div>${numIncorrect} incorrect out of ${questions.length}</div>`;
+  resultsContainer.innerHTML = `<p>Based on your answer choices, your score is : </p><br>
+  <div>${numIncorrect - questions.length} correct out of ${
+    questions.length
+  }</div>`;
 }
 
 submitButton.addEventListener("click", showResults);
