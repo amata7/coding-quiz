@@ -43,9 +43,9 @@ var questions = [
     question: "Which of these is not like the others?",
     correctAnswer: "d",
     answers: {
-      a: "var alert;",
-      b: "const someThing;",
-      c: "let c;",
+      a: "var c",
+      b: "const someThing",
+      c: "let startBtn",
       d: "allow thisVariable",
     },
   },

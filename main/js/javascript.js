@@ -105,7 +105,7 @@ function showResults() {
     30 - count.innerHTML
   } seconds to finish this quiz.</p>
   <p>Based on your answer choices, your score is </p>
-  <div>${numIncorrect - questions.length} correct out of ${
+  <div>${questions.length - numIncorrect} correct out of ${
     questions.length
   }</div>`;
 }
