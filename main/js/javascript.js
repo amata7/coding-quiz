@@ -9,9 +9,10 @@ startBtn.onclick = () => {
   quizContainer.classList.remove("hidden");
   submitButton.classList.remove("hidden");
   buildQuiz();
+  startTimer();
 };
 
-function buildQuiz() {
+function startTimer() {
   // start timer which will determine quiz score
   var count = 60;
   var interval = setInterval(function () {
@@ -20,10 +21,12 @@ function buildQuiz() {
     if (count === -2) {
       clearInterval(interval);
       document.getElementById("count").innerHTML = "Out of time!";
-      // or...
+      showResults();
     }
   }, 1000);
+}
 
+function buildQuiz() {
   // variable to store the HTML output
   const output = [];
   output.push(`<p class="text-3xl mb-2 underline">Coding Quiz</p>

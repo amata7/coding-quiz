@@ -29,4 +29,34 @@ var questions = [
       d: "Java Styles",
     },
   },
+  {
+    question: "What is a wire-frame?",
+    correctAnswer: "a",
+    answers: {
+      a: "An example using simple boxes and titles that shows a rough outline of how a webpage will look",
+      b: "A generic HTML page that contains a DOCTYPE, head, and an empty body div",
+      c: "The practice of making all of the webpages on a site link to each other before any real content is on the page",
+      d: "A wire frame refers to the file structure of a project",
+    },
+  },
+  {
+    question: "Which of these is not like the others?",
+    correctAnswer: "d",
+    answers: {
+      a: "var alert;",
+      b: "const someThing;",
+      c: "let c;",
+      d: "allow thisVariable",
+    },
+  },
+  {
+    question: "The box model describes...",
+    correctAnswer: "b",
+    answers: {
+      a: "the best possible way to handle your recycling needs",
+      b: "a box that wraps around a CSS element that consists of the element itself, margins, borders, and padding",
+      c: "a design technique that can help some developers create an effective wire-frame",
+      d: "a box that wraps around a CSS element that consists of margins, borders, and padding",
+    },
+  },
 ];

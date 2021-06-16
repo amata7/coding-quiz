@@ -9,26 +9,24 @@
     <link href="/tailwind.css" rel="stylesheet">
     <link rel="stylesheet" href="./main/css/style.css" />
 </head>
-<body class="bg-pink-300">
+<body class="bg-indigo-300">
 <main>
     <!-- Rules -->
     <section id="infoBox" class="grid grid-cols-5 grid-rows-3 justify-items-center">
         <div  class="bg-white p-3 rounded-lg border border-black mt-8 col-start-2 col-span-3 relative">
             <div id="rules">
                 <p class="text-3xl mb-2">Quiz Rules</p>
-                <p>1. You will have 20 seconds to finish the quiz</p>
-                <p>2. Wrong answers will take some of your remaining time away</p>
-                <p>3. When the timer reaches 0 or you answer all questions, then the quiz is over</p>
-                <p>4. Timer will start when you begin the quiz</p>
-                <p>5. Click "Continue" to begin</p>
+                <p>1. You will have 60 seconds to finish the quiz</p>
+                <p>2. Timer will start when you begin the quiz</p>
+                <p>3. The quiz is over when you hit the submit button or when time runs out</p>
             </div><br>
             <button id='startBtn' class="text-lg border-2 bg-green-600 text-white border-green-900 rounded-full py-1 px-2 mb-2 mr-4 absolute bottom-0 right-0 hover:bg-green-700">Start Quiz</button>
         </div>
     </section>
 
 <!-- Quiz -->
-<section class="grid grid-cols-3 grid-rows-2 justify-items-center">
-    <div id="quiz" class="bg-white col-start-2 mt-8 rounded-lg border border-black p-2 hidden">
+<section class="grid grid-cols-5 grid-rows-2 justify-items-center">
+    <div id="quiz" class="bg-white col-start-2 col-span-3 mt-8 rounded-lg border border-black p-2 hidden">
     </div>
     <button id="submit" class="bg-blue-500 text-white border border-black rounded-lg col-start-2 row-start-2 quizSubmit mt-2 p-1 hidden">Submit</button>
 
